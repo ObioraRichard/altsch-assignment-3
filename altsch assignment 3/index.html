@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Pusher Checkout</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <img
+        src="wppusher-logo copy.png"
+        alt="wppusher-logo"
+        width="200px"
+        height="39px"
+      />
+      <nav class="nav-bar">
+        <p>Download</p>
+        <p>Learn more</p>
+        <p>Pricing</p>
+        <p>Help</p>
+        <button class="acct-btn">Account</button>
+      </nav>
+    </div>
+    <hr />
+
+    <div class="container-wrapper">
+      <div class="container">
+        <div class="left-side">
+          <h2>Checkout</h2>
+          <hr />
+          <form>
+            <div class="form-container">
+              <div class="heading">
+                <div class="number-circle"><p class="number-one">1</p></div>
+                <h2>Your Basic Information</h2>
+              </div>
+              <div class="form-name">
+                <div>
+                  <label for="firstName">First Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="Jane"
+                  />
+                </div>
+                <div>
+                  <label for="lastName">Last Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Doe"
+                  />
+                </div>
+              </div>
+              <div>
+                <label for="email">E-mail</label>
+                <br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="chubby@gmail.com"
+                />
+              </div>
+            </div>
+            <hr />
+            <div>
+              <div class="heading">
+                <div class="number-circle"><p class="number-one">2</p></div>
+                <h2>Your Payment Information</h2>
+              </div>
+              <div>
+                <label for="creditCard">Credit Card</label>
+                <br />
+                <input
+                  type="text"
+                  id="creditCard"
+                  name="creditCard"
+                  placeholder="Card Number         MM/YY        CVC"
+                />
+              </div>
+            </div>
+            <hr />
+            <button class="buy-btn">
+              <span class="btn-title">Buy WP Pusher</span>
+            </button>
+          </form>
+          <footer>Need any help? Don’t hesitate to contact support!</footer>
+        </div>
+        <div class="right-side">
+          <h3>Freelancer</h3>
+          <p><sup>$</sup><span class="amount">99</span> / year</p>
+          <p>Automatically renews after 1 year</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
